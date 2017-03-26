@@ -25,8 +25,8 @@ const main = function (sources) {
             });
 
     return {
-        DOM: page$.flatMap(c => c.DOM),
-        router: page$.flatMap(c => c.router).startWith('/')
+        DOM: page$.switchMap(c => c.DOM),
+        router: page$.switchMap(c => c.router).startWith('/')
     };
 }
 
