@@ -1,0 +1,33 @@
+{
+  "name": "cycleapp",
+  "version": "1.0.0",
+  "description": "test using cycle.js, routers and auth",
+  "keywords": [
+    "cyclejs",
+    "examples"
+  ],
+  "author": "nicolocodev",
+  "license": "MIT",
+  "devDependencies": {
+    "cycle-scripts": "1.1.0"
+  },
+  "dependencies": {
+    "@cycle/dom": "^17.0.0",
+    "@cycle/rxjs-run": "^7.0.0",
+    "cyclic-router": "4.x.x",
+    "history" : "2.x.x",
+    "rxjs": "^5.2.0",
+    "switch-path": "^1.2.0"
+  },
+  "scripts": {
+    "start": "cycle-scripts start",
+    "test": "cycle-scripts test",
+    "build": "cycle-scripts build",
+    "eject": "cycle-scripts eject"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  }
+}
